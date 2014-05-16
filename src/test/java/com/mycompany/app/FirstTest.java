@@ -22,6 +22,6 @@ public class FirstTest {
 		driver.get("http://localhost:9090/home");
 		
 		
-        assertTrue( driver.getTitle().startsWith("xThe Game"));
+        assertTrue( driver.getTitle().startsWith("The Game"));
     }
 }
